@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         // App Center
-        MSAppCenter.start("055353b3-664f-42b3-bf30-c0ed31a4e01e", withServices:[
+        MSAppCenter.start("47572035-8767-4919-bd60-8ee0c9829a79", withServices:[
           MSAnalytics.self,
           MSCrashes.self
         ])
