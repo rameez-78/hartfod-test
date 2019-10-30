@@ -1,0 +1,6 @@
+framework module Pods_HartfordHealthCare {
+  umbrella header "Pods-HartfordHealthCare-umbrella.h"
+
+  export *
+  module * { export * }
+}

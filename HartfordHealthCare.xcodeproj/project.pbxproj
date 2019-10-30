@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C023BE1230D0D100058EDBE /* MediaPlayerControlsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C023BE0230D0D100058EDBE /* MediaPlayerControlsBackground.swift */; };
+		1C023BE3230D5FD60058EDBE /* MeditationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C023BE2230D5FD60058EDBE /* MeditationSession.swift */; };
+		1C0FAB3A2317E4D8006A4EC3 /* PauseIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0FAB392317E4D8006A4EC3 /* PauseIcon.swift */; };
+		1C0FAB3C2317E4F0006A4EC3 /* BackwardIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0FAB3B2317E4F0006A4EC3 /* BackwardIcon.swift */; };
+		1C0FAB3E2317E4FD006A4EC3 /* ForwardIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0FAB3D2317E4FD006A4EC3 /* ForwardIcon.swift */; };
+		1C2D612C2330B5BD00718146 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D612B2330B5BD00718146 /* UserDefaults+Extension.swift */; };
+		1C2D9DC422FAB93700D42430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D9CF422FAB93500D42430 /* Assets.xcassets */; };
+		1C2D9DC722FAB93700D42430 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9CF922FAB93600D42430 /* Strings.swift */; };
+		1C2D9DC822FAB93700D42430 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9CFA22FAB93600D42430 /* UserDefaultKeys.swift */; };
+		1C2D9DCA22FAB93700D42430 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9CFD22FAB93600D42430 /* UIColor+Extension.swift */; };
+		1C2D9DCB22FAB93700D42430 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9CFE22FAB93600D42430 /* UILabel+Extension.swift */; };
+		1C2D9DCC22FAB93700D42430 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9CFF22FAB93600D42430 /* UIButton+Extension.swift */; };
+		1C2D9DCD22FAB93700D42430 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D0022FAB93600D42430 /* NSObject+Extension.swift */; };
+		1C2D9DCF22FAB93700D42430 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D0222FAB93600D42430 /* UIViewController+Extension.swift */; };
+		1C2D9DD022FAB93700D42430 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D0322FAB93600D42430 /* String+Extension.swift */; };
+		1C2D9DD122FAB93700D42430 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D0422FAB93600D42430 /* UITextField+Extension.swift */; };
+		1C2D9DD422FAB93700D42430 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D0722FAB93600D42430 /* Colors.swift */; };
+		1C2D9DE122FAB93700D42430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D9D1A22FAB93600D42430 /* LaunchScreen.storyboard */; };
+		1C2D9DE222FAB93700D42430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D9D1C22FAB93600D42430 /* Main.storyboard */; };
+		1C2D9DE322FAB93700D42430 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D9D1D22FAB93600D42430 /* Authentication.storyboard */; };
+		1C2D9DE822FAB93700D42430 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D2522FAB93600D42430 /* CustomButton.swift */; };
+		1C2D9DEA22FAB93700D42430 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D2822FAB93600D42430 /* CustomView.swift */; };
+		1C2D9E3022FAB93800D42430 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D8E22FAB93700D42430 /* Meditation.swift */; };
+		1C2D9E3B22FAB93800D42430 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9D9B22FAB93700D42430 /* Router.swift */; };
+		1C2D9E3F22FAB93800D42430 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DA322FAB93700D42430 /* ContactsViewController.swift */; };
+		1C2D9E4022FAB93800D42430 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DA422FAB93700D42430 /* HomeViewController.swift */; };
+		1C2D9E4222FAB93800D42430 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DA622FAB93700D42430 /* MoreViewController.swift */; };
+		1C2D9E5122FAB93800D42430 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DB722FAB93700D42430 /* MainTabBarViewController.swift */; };
+		1C2D9E5222FAB93800D42430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DB822FAB93700D42430 /* AppDelegate.swift */; };
+		1C2D9E5522FAB93800D42430 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DBC22FAB93700D42430 /* LoginViewController.swift */; };
+		1C2D9E5922FAB93800D42430 /* MediaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9DC022FAB93700D42430 /* MediaPlayerViewController.swift */; };
+		1C2D9E6622FB02DD00D42430 /* MeditationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D9E6522FB02DD00D42430 /* MeditationTableViewCell.swift */; };
+		1C34F39B23139C9A00209368 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34F39A23139C9A00209368 /* VideosViewController.swift */; };
+		1C34F39D23139CB100209368 /* MeditationHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34F39C23139CB100209368 /* MeditationHistoryViewController.swift */; };
+		1C34F39F2313A95700209368 /* CloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34F39E2313A95600209368 /* CloudManager.swift */; };
+		1C34F3A22313ACD900209368 /* MeditationHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34F3A12313ACD900209368 /* MeditationHistoryTableViewCell.swift */; };
+		1C34F3A42313EB6900209368 /* LinkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34F3A32313EB6900209368 /* LinkSession.swift */; };
+		1C37E5AD232B810800D8D662 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37E5AC232B810800D8D662 /* AboutViewController.swift */; };
+		1C3E8D3D231CEEFA0092EBA3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E8D3C231CEEFA0092EBA3 /* Network.swift */; };
+		1C46842C230C09F800D99E44 /* MeditationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46842B230C09F800D99E44 /* MeditationsViewController.swift */; };
+		1C46842E230C0B0700D99E44 /* MeditationListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46842D230C0B0700D99E44 /* MeditationListingViewController.swift */; };
+		1C596845232F6BB100475968 /* LogoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C596844232F6BB100475968 /* LogoIcon.swift */; };
+		1C670785232A50E300F57D38 /* MoreScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C670784232A50E300F57D38 /* MoreScreenButton.swift */; };
+		1C744183230FBB6200CD1624 /* UserIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744182230FBB6200CD1624 /* UserIcon.swift */; };
+		1C744185230FBBA500CD1624 /* LockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744184230FBBA500CD1624 /* LockIcon.swift */; };
+		1C744187230FBE7E00CD1624 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744186230FBE7E00CD1624 /* UIView+Extension.swift */; };
+		1C744189230FC83C00CD1624 /* BackPainIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744188230FC83C00CD1624 /* BackPainIcon.swift */; };
+		1C74418B230FC84F00CD1624 /* NeckPainIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74418A230FC84F00CD1624 /* NeckPainIcon.swift */; };
+		1C74418D230FC87500CD1624 /* NeuropathicPainIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74418C230FC87500CD1624 /* NeuropathicPainIcon.swift */; };
+		1C74418F230FC88900CD1624 /* HeadachesIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74418E230FC88900CD1624 /* HeadachesIcon.swift */; };
+		1C744191230FC89800CD1624 /* FatigueIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744190230FC89800CD1624 /* FatigueIcon.swift */; };
+		1C744193230FC8AA00CD1624 /* SleepIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744192230FC8AA00CD1624 /* SleepIcon.swift */; };
+		1C744195230FC8B900CD1624 /* AnxietyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744194230FC8B900CD1624 /* AnxietyIcon.swift */; };
+		1C744197230FC8CB00CD1624 /* DepressionIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744196230FC8CB00CD1624 /* DepressionIcon.swift */; };
+		1C744199230FCBBE00CD1624 /* PlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C744198230FCBBE00CD1624 /* PlayIcon.swift */; };
+		1C74419B2310031400CD1624 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74419A2310031400CD1624 /* Date+Extension.swift */; };
+		1C7A4996231640450073E1A2 /* PainCenterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A4995231640450073E1A2 /* PainCenterImageView.swift */; };
+		1C8206582334AF4D00784D7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8206572334AF4D00784D7E /* User.swift */; };
+		1C82065A2334B8AB00784D7E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8206592334B8AB00784D7E /* SignupViewController.swift */; };
+		1C89CB6A230AAAA600A4166E /* ReminderTimeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB69230AAAA600A4166E /* ReminderTimeSelectionViewController.swift */; };
+		1C89CB6F230ABCFA00A4166E /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB6E230ABCFA00A4166E /* RemindersViewController.swift */; };
+		1C89CB73230AC54000A4166E /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB72230AC54000A4166E /* ReminderTableViewCell.swift */; };
+		1C89CB75230AC64E00A4166E /* DailyReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB74230AC64E00A4166E /* DailyReminder.swift */; };
+		1C89CB78230AD08C00A4166E /* ReminderTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB77230AD08C00A4166E /* ReminderTimeViewController.swift */; };
+		1C89CB7A230AD70500A4166E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB79230AD70500A4166E /* Device.swift */; };
+		1C89CB7C230AF62A00A4166E /* IntroductoryMediationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89CB7B230AF62A00A4166E /* IntroductoryMediationViewController.swift */; };
+		1C9C122C23179D8100334861 /* MeditationCentersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C122B23179D8100334861 /* MeditationCentersTableViewCell.swift */; };
+		1C9C122F2317A3C800334861 /* MediaPlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C122E2317A3C800334861 /* MediaPlayerSlider.swift */; };
+		1CAA13CD23683D0400DF7E28 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA13CC23683D0400DF7E28 /* NotificationName+Extension.swift */; };
+		1CAFE6372322AB520085B35B /* HHStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFE6362322AB510085B35B /* HHStyleKit.swift */; };
+		1CAFE6392322B7860085B35B /* BlueSquareCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFE6382322B7860085B35B /* BlueSquareCentre.swift */; };
+		1CAFE63B2322B7920085B35B /* MidstateCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFE63A2322B7920085B35B /* MidstateCentre.swift */; };
+		1CC42030231FBE8E00C8E352 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4202F231FBE8E00C8E352 /* Constants.swift */; };
+		1CC569A522FC4110007BFABE /* VibrationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC569A422FC410F007BFABE /* VibrationButton.swift */; };
+		1CDA9E2E232289B800529889 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA9E2D232289B800529889 /* UIImage+Extension.swift */; };
+		1CE248702318F78600BF8517 /* TechSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2486F2318F78600BF8517 /* TechSupportViewController.swift */; };
+		1CE2BA272315785C00E1F40E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2BA262315785C00E1F40E /* Doctor.swift */; };
+		1CE2BA2A231578C600E1F40E /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2BA29231578C600E1F40E /* DoctorTableViewCell.swift */; };
+		1CE4D5F8231684700009B041 /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4D5F7231684700009B041 /* MoreTableViewCell.swift */; };
+		1CE4D5FB231691000009B041 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4D5FA231691000009B041 /* VideoTableViewCell.swift */; };
+		1CE4D5FD231693020009B041 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4D5FC231693020009B041 /* Video.swift */; };
+		1CEF1884230BC004009F1484 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF1883230BC004009F1484 /* DBManager.swift */; };
+		1CEF1886230BD5ED009F1484 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF1885230BD5ED009F1484 /* Enums.swift */; };
+		9524B3A5BAB747A1F04D8AE1 /* Pods_HartfordHealthCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3F28564043F13563DC24CA /* Pods_HartfordHealthCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3F28564043F13563DC24CA /* Pods_HartfordHealthCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HartfordHealthCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C023BE0230D0D100058EDBE /* MediaPlayerControlsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerControlsBackground.swift; sourceTree = "<group>"; };
+		1C023BE2230D5FD60058EDBE /* MeditationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSession.swift; sourceTree = "<group>"; };
+		1C0FAB392317E4D8006A4EC3 /* PauseIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseIcon.swift; sourceTree = "<group>"; };
+		1C0FAB3B2317E4F0006A4EC3 /* BackwardIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardIcon.swift; sourceTree = "<group>"; };
+		1C0FAB3D2317E4FD006A4EC3 /* ForwardIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardIcon.swift; sourceTree = "<group>"; };
+		1C2D612B2330B5BD00718146 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9CBD22FA925A00D42430 /* HartfordHealthCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HartfordHealthCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2D9CF422FAB93500D42430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C2D9CF922FAB93600D42430 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		1C2D9CFA22FAB93600D42430 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		1C2D9CFD22FAB93600D42430 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9CFE22FAB93600D42430 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9CFF22FAB93600D42430 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9D0022FAB93600D42430 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9D0222FAB93600D42430 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9D0322FAB93600D42430 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9D0422FAB93600D42430 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		1C2D9D0722FAB93600D42430 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1C2D9D1B22FAB93600D42430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C2D9D1C22FAB93600D42430 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C2D9D1D22FAB93600D42430 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		1C2D9D2522FAB93600D42430 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1C2D9D2822FAB93600D42430 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1C2D9D8E22FAB93700D42430 /* Meditation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		1C2D9D9B22FAB93700D42430 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1C2D9DA322FAB93700D42430 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		1C2D9DA422FAB93700D42430 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C2D9DA622FAB93700D42430 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		1C2D9DB722FAB93700D42430 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		1C2D9DB822FAB93700D42430 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C2D9DBC22FAB93700D42430 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C2D9DC022FAB93700D42430 /* MediaPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayerViewController.swift; sourceTree = "<group>"; };
+		1C2D9E5F22FABDB500D42430 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2D9E6522FB02DD00D42430 /* MeditationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTableViewCell.swift; sourceTree = "<group>"; };
+		1C34F39A23139C9A00209368 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		1C34F39C23139CB100209368 /* MeditationHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationHistoryViewController.swift; sourceTree = "<group>"; };
+		1C34F39E2313A95600209368 /* CloudManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudManager.swift; sourceTree = "<group>"; };
+		1C34F3A12313ACD900209368 /* MeditationHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		1C34F3A32313EB6900209368 /* LinkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSession.swift; sourceTree = "<group>"; };
+		1C37E5AC232B810800D8D662 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1C3E8D3C231CEEFA0092EBA3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1C46842B230C09F800D99E44 /* MeditationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsViewController.swift; sourceTree = "<group>"; };
+		1C46842D230C0B0700D99E44 /* MeditationListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationListingViewController.swift; sourceTree = "<group>"; };
+		1C596844232F6BB100475968 /* LogoIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoIcon.swift; sourceTree = "<group>"; };
+		1C670784232A50E300F57D38 /* MoreScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreenButton.swift; sourceTree = "<group>"; };
+		1C744182230FBB6200CD1624 /* UserIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIcon.swift; sourceTree = "<group>"; };
+		1C744184230FBBA500CD1624 /* LockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockIcon.swift; sourceTree = "<group>"; };
+		1C744186230FBE7E00CD1624 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1C744188230FC83C00CD1624 /* BackPainIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPainIcon.swift; sourceTree = "<group>"; };
+		1C74418A230FC84F00CD1624 /* NeckPainIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeckPainIcon.swift; sourceTree = "<group>"; };
+		1C74418C230FC87500CD1624 /* NeuropathicPainIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuropathicPainIcon.swift; sourceTree = "<group>"; };
+		1C74418E230FC88900CD1624 /* HeadachesIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadachesIcon.swift; sourceTree = "<group>"; };
+		1C744190230FC89800CD1624 /* FatigueIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatigueIcon.swift; sourceTree = "<group>"; };
+		1C744192230FC8AA00CD1624 /* SleepIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepIcon.swift; sourceTree = "<group>"; };
+		1C744194230FC8B900CD1624 /* AnxietyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyIcon.swift; sourceTree = "<group>"; };
+		1C744196230FC8CB00CD1624 /* DepressionIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionIcon.swift; sourceTree = "<group>"; };
+		1C744198230FCBBE00CD1624 /* PlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayIcon.swift; sourceTree = "<group>"; };
+		1C74419A2310031400CD1624 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		1C7A4995231640450073E1A2 /* PainCenterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PainCenterImageView.swift; path = HartfordHealthCare/UIClasses/PainCenterImageView.swift; sourceTree = SOURCE_ROOT; };
+		1C8206572334AF4D00784D7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1C8206592334B8AB00784D7E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1C89CB69230AAAA600A4166E /* ReminderTimeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTimeSelectionViewController.swift; sourceTree = "<group>"; };
+		1C89CB6E230ABCFA00A4166E /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		1C89CB72230AC54000A4166E /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		1C89CB74230AC64E00A4166E /* DailyReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReminder.swift; sourceTree = "<group>"; };
+		1C89CB77230AD08C00A4166E /* ReminderTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTimeViewController.swift; sourceTree = "<group>"; };
+		1C89CB79230AD70500A4166E /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		1C89CB7B230AF62A00A4166E /* IntroductoryMediationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductoryMediationViewController.swift; sourceTree = "<group>"; };
+		1C9C122B23179D8100334861 /* MeditationCentersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCentersTableViewCell.swift; sourceTree = "<group>"; };
+		1C9C122E2317A3C800334861 /* MediaPlayerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerSlider.swift; sourceTree = "<group>"; };
+		1CAA13CC23683D0400DF7E28 /* NotificationName+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		1CAFE6362322AB510085B35B /* HHStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHStyleKit.swift; sourceTree = "<group>"; };
+		1CAFE6382322B7860085B35B /* BlueSquareCentre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSquareCentre.swift; sourceTree = "<group>"; };
+		1CAFE63A2322B7920085B35B /* MidstateCentre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidstateCentre.swift; sourceTree = "<group>"; };
+		1CC4202F231FBE8E00C8E352 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1CC569A422FC410F007BFABE /* VibrationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrationButton.swift; sourceTree = "<group>"; };
+		1CDA9E2D232289B800529889 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1CE2486F2318F78600BF8517 /* TechSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSupportViewController.swift; sourceTree = "<group>"; };
+		1CE2BA262315785C00E1F40E /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		1CE2BA29231578C600E1F40E /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		1CE4D5F7231684700009B041 /* MoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		1CE4D5FA231691000009B041 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		1CE4D5FC231693020009B041 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		1CEF1883230BC004009F1484 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1CEF1885230BD5ED009F1484 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		275A720CA950E907FC2CA401 /* Pods-HartfordHealthCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HartfordHealthCare.debug.xcconfig"; path = "Target Support Files/Pods-HartfordHealthCare/Pods-HartfordHealthCare.debug.xcconfig"; sourceTree = "<group>"; };
+		53F06D3B5D66A73B4BCFA018 /* Pods-HartfordHealthCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HartfordHealthCare.release.xcconfig"; path = "Target Support Files/Pods-HartfordHealthCare/Pods-HartfordHealthCare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2D9CBA22FA925A00D42430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9524B3A5BAB747A1F04D8AE1 /* Pods_HartfordHealthCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2D9CB422FA925A00D42430 = {
+			isa = PBXGroup;
+			children = (
+				1C2D9CBF22FA925A00D42430 /* HartfordHealthCare */,
+				1C2D9CBE22FA925A00D42430 /* Products */,
+				2A4611B68378E2A1EAC8C4B2 /* Pods */,
+				47A4313A41C02E98FE6D73FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2D9CBE22FA925A00D42430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9CBD22FA925A00D42430 /* HartfordHealthCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2D9CBF22FA925A00D42430 /* HartfordHealthCare */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9D9C22FAB93700D42430 /* Configuration */,
+				1C2D9D2322FAB93600D42430 /* UIClasses */,
+				1C2D9D8D22FAB93700D42430 /* Model */,
+				1C2D9DA022FAB93700D42430 /* Controller */,
+				1C2D9D1822FAB93600D42430 /* View */,
+				1C2D9D4F22FAB93600D42430 /* Dependencies */,
+				1C2D9CF222FAB93500D42430 /* Resources */,
+				1C2D9D9A22FAB93700D42430 /* Router */,
+				1C89CB68230AA3BC00A4166E /* Helpers */,
+			);
+			path = HartfordHealthCare;
+			sourceTree = "<group>";
+		};
+		1C2D9CF222FAB93500D42430 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9CF322FAB93500D42430 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C2D9CF322FAB93500D42430 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9CF422FAB93500D42430 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1C2D9CFC22FAB93600D42430 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA13CC23683D0400DF7E28 /* NotificationName+Extension.swift */,
+				1C2D9CFD22FAB93600D42430 /* UIColor+Extension.swift */,
+				1C2D9CFE22FAB93600D42430 /* UILabel+Extension.swift */,
+				1C2D9CFF22FAB93600D42430 /* UIButton+Extension.swift */,
+				1C2D9D0022FAB93600D42430 /* NSObject+Extension.swift */,
+				1C2D9D0222FAB93600D42430 /* UIViewController+Extension.swift */,
+				1C2D9D0322FAB93600D42430 /* String+Extension.swift */,
+				1C2D9D0422FAB93600D42430 /* UITextField+Extension.swift */,
+				1C744186230FBE7E00CD1624 /* UIView+Extension.swift */,
+				1C74419A2310031400CD1624 /* Date+Extension.swift */,
+				1CDA9E2D232289B800529889 /* UIImage+Extension.swift */,
+				1C2D612B2330B5BD00718146 /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C2D9D1822FAB93600D42430 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9D1922FAB93600D42430 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C2D9D1922FAB93600D42430 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9D1A22FAB93600D42430 /* LaunchScreen.storyboard */,
+				1C2D9D1C22FAB93600D42430 /* Main.storyboard */,
+				1C2D9D1D22FAB93600D42430 /* Authentication.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1C2D9D2322FAB93600D42430 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1C9C122D2317A3B100334861 /* UISlider */,
+				1C7A4994231640300073E1A2 /* UIImageView */,
+				1C2D9D2422FAB93600D42430 /* UIButton */,
+				1C2D9D2722FAB93600D42430 /* UIView */,
+			);
+			path = UIClasses;
+			sourceTree = "<group>";
+		};
+		1C2D9D2422FAB93600D42430 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1CC569A422FC410F007BFABE /* VibrationButton.swift */,
+				1C2D9D2522FAB93600D42430 /* CustomButton.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1C2D9D2722FAB93600D42430 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9D2822FAB93600D42430 /* CustomView.swift */,
+				1C023BE0230D0D100058EDBE /* MediaPlayerControlsBackground.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		1C2D9D4F22FAB93600D42430 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1C744181230FBB5100CD1624 /* Icons */,
+				1C702580230E612F0044F6EC /* Stylekits */,
+				1C70257D230E5EA70044F6EC /* NetworkManager */,
+				1CEF1882230BBFF6009F1484 /* RealmManager */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		1C2D9D8D22FAB93700D42430 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C8206572334AF4D00784D7E /* User.swift */,
+				1C023BE2230D5FD60058EDBE /* MeditationSession.swift */,
+				1C34F3A32313EB6900209368 /* LinkSession.swift */,
+				1C2D9D8E22FAB93700D42430 /* Meditation.swift */,
+				1C89CB74230AC64E00A4166E /* DailyReminder.swift */,
+				1CE2BA262315785C00E1F40E /* Doctor.swift */,
+				1CE4D5FC231693020009B041 /* Video.swift */,
+				1C670784232A50E300F57D38 /* MoreScreenButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C2D9D9A22FAB93700D42430 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9D9B22FAB93700D42430 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1C2D9D9C22FAB93700D42430 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9E5F22FABDB500D42430 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		1C2D9DA022FAB93700D42430 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DB822FAB93700D42430 /* AppDelegate.swift */,
+				1C2D9DBA22FAB93700D42430 /* Authentication */,
+				1C2D9DA122FAB93700D42430 /* Tabbar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C2D9DA122FAB93700D42430 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DB722FAB93700D42430 /* MainTabBarViewController.swift */,
+				1C89CB6D230AB05C00A4166E /* Home */,
+				1C89CB6C230AB05600A4166E /* Contacts */,
+				1C89CB6B230AB04800A4166E /* More */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		1C2D9DBA22FAB93700D42430 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DBC22FAB93700D42430 /* LoginViewController.swift */,
+				1C89CB69230AAAA600A4166E /* ReminderTimeSelectionViewController.swift */,
+				1C89CB7B230AF62A00A4166E /* IntroductoryMediationViewController.swift */,
+				1C8206592334B8AB00784D7E /* SignupViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		1C34F39823139C5E00209368 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1C34F39A23139C9A00209368 /* VideosViewController.swift */,
+				1CE4D5FA231691000009B041 /* VideoTableViewCell.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		1C34F39923139C6600209368 /* MeditationHistory */ = {
+			isa = PBXGroup;
+			children = (
+				1C34F39C23139CB100209368 /* MeditationHistoryViewController.swift */,
+				1C34F3A12313ACD900209368 /* MeditationHistoryTableViewCell.swift */,
+			);
+			path = MeditationHistory;
+			sourceTree = "<group>";
+		};
+		1C37E5AB232B80F000D8D662 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				1C37E5AC232B810800D8D662 /* AboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		1C70257D230E5EA70044F6EC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E8D3C231CEEFA0092EBA3 /* Network.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		1C702580230E612F0044F6EC /* Stylekits */ = {
+			isa = PBXGroup;
+			children = (
+				1CAFE6362322AB510085B35B /* HHStyleKit.swift */,
+			);
+			path = Stylekits;
+			sourceTree = "<group>";
+		};
+		1C744181230FBB5100CD1624 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1C744182230FBB6200CD1624 /* UserIcon.swift */,
+				1C744184230FBBA500CD1624 /* LockIcon.swift */,
+				1C744188230FC83C00CD1624 /* BackPainIcon.swift */,
+				1C74418A230FC84F00CD1624 /* NeckPainIcon.swift */,
+				1C74418C230FC87500CD1624 /* NeuropathicPainIcon.swift */,
+				1C74418E230FC88900CD1624 /* HeadachesIcon.swift */,
+				1C744190230FC89800CD1624 /* FatigueIcon.swift */,
+				1C744192230FC8AA00CD1624 /* SleepIcon.swift */,
+				1C744194230FC8B900CD1624 /* AnxietyIcon.swift */,
+				1C744196230FC8CB00CD1624 /* DepressionIcon.swift */,
+				1C744198230FCBBE00CD1624 /* PlayIcon.swift */,
+				1C0FAB392317E4D8006A4EC3 /* PauseIcon.swift */,
+				1C0FAB3B2317E4F0006A4EC3 /* BackwardIcon.swift */,
+				1C0FAB3D2317E4FD006A4EC3 /* ForwardIcon.swift */,
+				1CAFE6382322B7860085B35B /* BlueSquareCentre.swift */,
+				1CAFE63A2322B7920085B35B /* MidstateCentre.swift */,
+				1C596844232F6BB100475968 /* LogoIcon.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1C7A4994231640300073E1A2 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A4995231640450073E1A2 /* PainCenterImageView.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		1C89CB68230AA3BC00A4166E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9CFC22FAB93600D42430 /* Extensions */,
+				1C2D9CF922FAB93600D42430 /* Strings.swift */,
+				1C2D9CFA22FAB93600D42430 /* UserDefaultKeys.swift */,
+				1C2D9D0722FAB93600D42430 /* Colors.swift */,
+				1C89CB79230AD70500A4166E /* Device.swift */,
+				1CEF1885230BD5ED009F1484 /* Enums.swift */,
+				1CC4202F231FBE8E00C8E352 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1C89CB6B230AB04800A4166E /* More */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DA622FAB93700D42430 /* MoreViewController.swift */,
+				1CE4D5F7231684700009B041 /* MoreTableViewCell.swift */,
+				1C34F39823139C5E00209368 /* Videos */,
+				1C89CB70230AC52300A4166E /* Reminders */,
+				1C34F39923139C6600209368 /* MeditationHistory */,
+				1CE2486D2318F76400BF8517 /* TechSupport */,
+				1C37E5AB232B80F000D8D662 /* About */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		1C89CB6C230AB05600A4166E /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DA322FAB93700D42430 /* ContactsViewController.swift */,
+				1CE2BA29231578C600E1F40E /* DoctorTableViewCell.swift */,
+				1C9C122B23179D8100334861 /* MeditationCentersTableViewCell.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		1C89CB6D230AB05C00A4166E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C2D9DA422FAB93700D42430 /* HomeViewController.swift */,
+				1C46842B230C09F800D99E44 /* MeditationsViewController.swift */,
+				1C46842D230C0B0700D99E44 /* MeditationListingViewController.swift */,
+				1C2D9DC022FAB93700D42430 /* MediaPlayerViewController.swift */,
+				1C2D9E6522FB02DD00D42430 /* MeditationTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C89CB70230AC52300A4166E /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				1C89CB6E230ABCFA00A4166E /* RemindersViewController.swift */,
+				1C89CB77230AD08C00A4166E /* ReminderTimeViewController.swift */,
+				1C89CB72230AC54000A4166E /* ReminderTableViewCell.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		1C9C122D2317A3B100334861 /* UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				1C9C122E2317A3C800334861 /* MediaPlayerSlider.swift */,
+			);
+			path = UISlider;
+			sourceTree = "<group>";
+		};
+		1CE2486D2318F76400BF8517 /* TechSupport */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2486F2318F78600BF8517 /* TechSupportViewController.swift */,
+			);
+			path = TechSupport;
+			sourceTree = "<group>";
+		};
+		1CEF1882230BBFF6009F1484 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C34F39E2313A95600209368 /* CloudManager.swift */,
+				1CEF1883230BC004009F1484 /* DBManager.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
+		2A4611B68378E2A1EAC8C4B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275A720CA950E907FC2CA401 /* Pods-HartfordHealthCare.debug.xcconfig */,
+				53F06D3B5D66A73B4BCFA018 /* Pods-HartfordHealthCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47A4313A41C02E98FE6D73FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B3F28564043F13563DC24CA /* Pods_HartfordHealthCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2D9CBC22FA925A00D42430 /* HartfordHealthCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2D9CCF22FA925B00D42430 /* Build configuration list for PBXNativeTarget "HartfordHealthCare" */;
+			buildPhases = (
+				6C9DBE4FB9B4CF01346031F7 /* [CP] Check Pods Manifest.lock */,
+				1C2D9CB922FA925A00D42430 /* Sources */,
+				1C2D9CBA22FA925A00D42430 /* Frameworks */,
+				1C2D9CBB22FA925A00D42430 /* Resources */,
+				2C2DE88F03966B91BF64D216 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HartfordHealthCare;
+			productName = HartfordHealthCare;
+			productReference = 1C2D9CBD22FA925A00D42430 /* HartfordHealthCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2D9CB522FA925A00D42430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = NXB;
+				TargetAttributes = {
+					1C2D9CBC22FA925A00D42430 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1C2D9CB822FA925A00D42430 /* Build configuration list for PBXProject "HartfordHealthCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C2D9CB422FA925A00D42430;
+			productRefGroup = 1C2D9CBE22FA925A00D42430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2D9CBC22FA925A00D42430 /* HartfordHealthCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C2D9CBB22FA925A00D42430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2D9DE322FAB93700D42430 /* Authentication.storyboard in Resources */,
+				1C2D9DE222FAB93700D42430 /* Main.storyboard in Resources */,
+				1C2D9DE122FAB93700D42430 /* LaunchScreen.storyboard in Resources */,
+				1C2D9DC422FAB93700D42430 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C2DE88F03966B91BF64D216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HartfordHealthCare/Pods-HartfordHealthCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HartfordHealthCare/Pods-HartfordHealthCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HartfordHealthCare/Pods-HartfordHealthCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C9DBE4FB9B4CF01346031F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HartfordHealthCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2D9CB922FA925A00D42430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2D9E5222FAB93800D42430 /* AppDelegate.swift in Sources */,
+				1C89CB6F230ABCFA00A4166E /* RemindersViewController.swift in Sources */,
+				1C2D9DCF22FAB93700D42430 /* UIViewController+Extension.swift in Sources */,
+				1CAA13CD23683D0400DF7E28 /* NotificationName+Extension.swift in Sources */,
+				1C89CB6A230AAAA600A4166E /* ReminderTimeSelectionViewController.swift in Sources */,
+				1CE2BA272315785C00E1F40E /* Doctor.swift in Sources */,
+				1C34F3A42313EB6900209368 /* LinkSession.swift in Sources */,
+				1C2D9DE822FAB93700D42430 /* CustomButton.swift in Sources */,
+				1C0FAB3C2317E4F0006A4EC3 /* BackwardIcon.swift in Sources */,
+				1C34F39D23139CB100209368 /* MeditationHistoryViewController.swift in Sources */,
+				1C74418B230FC84F00CD1624 /* NeckPainIcon.swift in Sources */,
+				1C0FAB3A2317E4D8006A4EC3 /* PauseIcon.swift in Sources */,
+				1CAFE6392322B7860085B35B /* BlueSquareCentre.swift in Sources */,
+				1CAFE63B2322B7920085B35B /* MidstateCentre.swift in Sources */,
+				1C2D9E4022FAB93800D42430 /* HomeViewController.swift in Sources */,
+				1C744185230FBBA500CD1624 /* LockIcon.swift in Sources */,
+				1C2D9DC822FAB93700D42430 /* UserDefaultKeys.swift in Sources */,
+				1C9C122C23179D8100334861 /* MeditationCentersTableViewCell.swift in Sources */,
+				1C023BE3230D5FD60058EDBE /* MeditationSession.swift in Sources */,
+				1C74419B2310031400CD1624 /* Date+Extension.swift in Sources */,
+				1C744195230FC8B900CD1624 /* AnxietyIcon.swift in Sources */,
+				1CC569A522FC4110007BFABE /* VibrationButton.swift in Sources */,
+				1C2D9DD422FAB93700D42430 /* Colors.swift in Sources */,
+				1C2D9E4222FAB93800D42430 /* MoreViewController.swift in Sources */,
+				1CE4D5F8231684700009B041 /* MoreTableViewCell.swift in Sources */,
+				1C89CB7A230AD70500A4166E /* Device.swift in Sources */,
+				1C3E8D3D231CEEFA0092EBA3 /* Network.swift in Sources */,
+				1C89CB73230AC54000A4166E /* ReminderTableViewCell.swift in Sources */,
+				1C2D9DCB22FAB93700D42430 /* UILabel+Extension.swift in Sources */,
+				1CEF1886230BD5ED009F1484 /* Enums.swift in Sources */,
+				1C2D9DC722FAB93700D42430 /* Strings.swift in Sources */,
+				1C2D612C2330B5BD00718146 /* UserDefaults+Extension.swift in Sources */,
+				1CE4D5FB231691000009B041 /* VideoTableViewCell.swift in Sources */,
+				1CDA9E2E232289B800529889 /* UIImage+Extension.swift in Sources */,
+				1C74418F230FC88900CD1624 /* HeadachesIcon.swift in Sources */,
+				1C2D9E3022FAB93800D42430 /* Meditation.swift in Sources */,
+				1C37E5AD232B810800D8D662 /* AboutViewController.swift in Sources */,
+				1C2D9DD122FAB93700D42430 /* UITextField+Extension.swift in Sources */,
+				1C2D9DCA22FAB93700D42430 /* UIColor+Extension.swift in Sources */,
+				1CC42030231FBE8E00C8E352 /* Constants.swift in Sources */,
+				1C89CB75230AC64E00A4166E /* DailyReminder.swift in Sources */,
+				1C2D9E5122FAB93800D42430 /* MainTabBarViewController.swift in Sources */,
+				1C2D9DCC22FAB93700D42430 /* UIButton+Extension.swift in Sources */,
+				1C34F3A22313ACD900209368 /* MeditationHistoryTableViewCell.swift in Sources */,
+				1C2D9E5522FAB93800D42430 /* LoginViewController.swift in Sources */,
+				1C2D9E5922FAB93800D42430 /* MediaPlayerViewController.swift in Sources */,
+				1C744183230FBB6200CD1624 /* UserIcon.swift in Sources */,
+				1CE248702318F78600BF8517 /* TechSupportViewController.swift in Sources */,
+				1C744187230FBE7E00CD1624 /* UIView+Extension.swift in Sources */,
+				1C82065A2334B8AB00784D7E /* SignupViewController.swift in Sources */,
+				1C74418D230FC87500CD1624 /* NeuropathicPainIcon.swift in Sources */,
+				1CAFE6372322AB520085B35B /* HHStyleKit.swift in Sources */,
+				1C0FAB3E2317E4FD006A4EC3 /* ForwardIcon.swift in Sources */,
+				1C596845232F6BB100475968 /* LogoIcon.swift in Sources */,
+				1C744197230FC8CB00CD1624 /* DepressionIcon.swift in Sources */,
+				1C7A4996231640450073E1A2 /* PainCenterImageView.swift in Sources */,
+				1C744191230FC89800CD1624 /* FatigueIcon.swift in Sources */,
+				1C744193230FC8AA00CD1624 /* SleepIcon.swift in Sources */,
+				1C744199230FCBBE00CD1624 /* PlayIcon.swift in Sources */,
+				1CE4D5FD231693020009B041 /* Video.swift in Sources */,
+				1C2D9DEA22FAB93700D42430 /* CustomView.swift in Sources */,
+				1C89CB78230AD08C00A4166E /* ReminderTimeViewController.swift in Sources */,
+				1C34F39F2313A95700209368 /* CloudManager.swift in Sources */,
+				1C744189230FC83C00CD1624 /* BackPainIcon.swift in Sources */,
+				1C2D9E3F22FAB93800D42430 /* ContactsViewController.swift in Sources */,
+				1C2D9E6622FB02DD00D42430 /* MeditationTableViewCell.swift in Sources */,
+				1C670785232A50E300F57D38 /* MoreScreenButton.swift in Sources */,
+				1C9C122F2317A3C800334861 /* MediaPlayerSlider.swift in Sources */,
+				1C89CB7C230AF62A00A4166E /* IntroductoryMediationViewController.swift in Sources */,
+				1C2D9DD022FAB93700D42430 /* String+Extension.swift in Sources */,
+				1C2D9DCD22FAB93700D42430 /* NSObject+Extension.swift in Sources */,
+				1C46842E230C0B0700D99E44 /* MeditationListingViewController.swift in Sources */,
+				1C2D9E3B22FAB93800D42430 /* Router.swift in Sources */,
+				1C46842C230C09F800D99E44 /* MeditationsViewController.swift in Sources */,
+				1C34F39B23139C9A00209368 /* VideosViewController.swift in Sources */,
+				1CEF1884230BC004009F1484 /* DBManager.swift in Sources */,
+				1CE2BA2A231578C600E1F40E /* DoctorTableViewCell.swift in Sources */,
+				1C023BE1230D0D100058EDBE /* MediaPlayerControlsBackground.swift in Sources */,
+				1C8206582334AF4D00784D7E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C2D9D1A22FAB93600D42430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2D9D1B22FAB93600D42430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C2D9CCD22FA925B00D42430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C2D9CCE22FA925B00D42430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C2D9CD022FA925B00D42430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275A720CA950E907FC2CA401 /* Pods-HartfordHealthCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = 5V756N664E;
+				INFOPLIST_FILE = "$(SRCROOT)/HartfordHealthCare/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solsticestrategypartners.rx-hartfordhealthcare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C2D9CD122FA925B00D42430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F06D3B5D66A73B4BCFA018 /* Pods-HartfordHealthCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = 5V756N664E;
+				INFOPLIST_FILE = "$(SRCROOT)/HartfordHealthCare/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solsticestrategypartners.rx-hartfordhealthcare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2D9CB822FA925A00D42430 /* Build configuration list for PBXProject "HartfordHealthCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2D9CCD22FA925B00D42430 /* Debug */,
+				1C2D9CCE22FA925B00D42430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2D9CCF22FA925B00D42430 /* Build configuration list for PBXNativeTarget "HartfordHealthCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2D9CD022FA925B00D42430 /* Debug */,
+				1C2D9CD122FA925B00D42430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2D9CB522FA925A00D42430 /* Project object */;
+}
